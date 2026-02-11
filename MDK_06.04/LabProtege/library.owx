@@ -1,0 +1,464 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/popia/ontologies/2026/1/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/popia/ontologies/2026/1/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/popia/ontologies/2026/1/untitled-ontology-3/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AgeGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Author"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAgeGroup"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAuthor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AChristmasCarol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AMidsummerNightsDream"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ATaleOfTwoCities"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Age12Plus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Age14Plus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Age16Plus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Age6Plus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AnimalFarm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BurmeseDays"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CharlesDickens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ComedyFantasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ComingUpForAir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DavidCopperfield"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DownAndOutInParisAndLondon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DystopiaSatire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GeorgeOrwell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GreatExpectations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hamlet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KingLear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Macbeth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NineteenEightyFour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Novel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OliverTwist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RomeoAndJuliet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TaleNovella"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tragedy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WilliamShakespeare"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#AChristmasCarol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#AMidsummerNightsDream"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#ATaleOfTwoCities"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeGroup"/>
+        <NamedIndividual IRI="#Age12Plus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeGroup"/>
+        <NamedIndividual IRI="#Age14Plus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeGroup"/>
+        <NamedIndividual IRI="#Age16Plus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeGroup"/>
+        <NamedIndividual IRI="#Age6Plus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#AnimalFarm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#BurmeseDays"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#CharlesDickens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#ComedyFantasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#ComingUpForAir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#DavidCopperfield"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#DownAndOutInParisAndLondon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#DystopiaSatire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#GeorgeOrwell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#GreatExpectations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#Hamlet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#KingLear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#Macbeth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#NineteenEightyFour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Novel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#OliverTwist"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#RomeoAndJuliet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#TaleNovella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Tragedy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#WilliamShakespeare"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAgeGroup"/>
+        <NamedIndividual IRI="#AChristmasCarol"/>
+        <NamedIndividual IRI="#Age6Plus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#AChristmasCarol"/>
+        <NamedIndividual IRI="#CharlesDickens"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#AChristmasCarol"/>
+        <NamedIndividual IRI="#TaleNovella"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAgeGroup"/>
+        <NamedIndividual IRI="#AMidsummerNightsDream"/>
+        <NamedIndividual IRI="#Age12Plus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#AMidsummerNightsDream"/>
+        <NamedIndividual IRI="#WilliamShakespeare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#AMidsummerNightsDream"/>
+        <NamedIndividual IRI="#ComedyFantasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAgeGroup"/>
+        <NamedIndividual IRI="#ATaleOfTwoCities"/>
+        <NamedIndividual IRI="#Age16Plus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#ATaleOfTwoCities"/>
+        <NamedIndividual IRI="#CharlesDickens"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#ATaleOfTwoCities"/>
+        <NamedIndividual IRI="#Novel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAgeGroup"/>
+        <NamedIndividual IRI="#AnimalFarm"/>
+        <NamedIndividual IRI="#Age12Plus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#AnimalFarm"/>
+        <NamedIndividual IRI="#GeorgeOrwell"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#AnimalFarm"/>
+        <NamedIndividual IRI="#DystopiaSatire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAgeGroup"/>
+        <NamedIndividual IRI="#BurmeseDays"/>
+        <NamedIndividual IRI="#Age16Plus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#BurmeseDays"/>
+        <NamedIndividual IRI="#GeorgeOrwell"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#BurmeseDays"/>
+        <NamedIndividual IRI="#Novel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAgeGroup"/>
+        <NamedIndividual IRI="#ComingUpForAir"/>
+        <NamedIndividual IRI="#Age16Plus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#ComingUpForAir"/>
+        <NamedIndividual IRI="#GeorgeOrwell"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#ComingUpForAir"/>
+        <NamedIndividual IRI="#Novel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAgeGroup"/>
+        <NamedIndividual IRI="#DavidCopperfield"/>
+        <NamedIndividual IRI="#Age12Plus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#DavidCopperfield"/>
+        <NamedIndividual IRI="#CharlesDickens"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#DavidCopperfield"/>
+        <NamedIndividual IRI="#Novel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAgeGroup"/>
+        <NamedIndividual IRI="#DownAndOutInParisAndLondon"/>
+        <NamedIndividual IRI="#Age16Plus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#DownAndOutInParisAndLondon"/>
+        <NamedIndividual IRI="#GeorgeOrwell"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#DownAndOutInParisAndLondon"/>
+        <NamedIndividual IRI="#Novel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAgeGroup"/>
+        <NamedIndividual IRI="#Hamlet"/>
+        <NamedIndividual IRI="#Age16Plus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#Hamlet"/>
+        <NamedIndividual IRI="#WilliamShakespeare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Hamlet"/>
+        <NamedIndividual IRI="#Tragedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAgeGroup"/>
+        <NamedIndividual IRI="#KingLear"/>
+        <NamedIndividual IRI="#Age16Plus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#KingLear"/>
+        <NamedIndividual IRI="#WilliamShakespeare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#KingLear"/>
+        <NamedIndividual IRI="#Tragedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAgeGroup"/>
+        <NamedIndividual IRI="#Macbeth"/>
+        <NamedIndividual IRI="#Age16Plus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#Macbeth"/>
+        <NamedIndividual IRI="#WilliamShakespeare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Macbeth"/>
+        <NamedIndividual IRI="#Tragedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAgeGroup"/>
+        <NamedIndividual IRI="#NineteenEightyFour"/>
+        <NamedIndividual IRI="#Age16Plus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#NineteenEightyFour"/>
+        <NamedIndividual IRI="#GeorgeOrwell"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#NineteenEightyFour"/>
+        <NamedIndividual IRI="#DystopiaSatire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAgeGroup"/>
+        <NamedIndividual IRI="#OliverTwist"/>
+        <NamedIndividual IRI="#Age12Plus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#OliverTwist"/>
+        <NamedIndividual IRI="#CharlesDickens"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#OliverTwist"/>
+        <NamedIndividual IRI="#Novel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAgeGroup"/>
+        <NamedIndividual IRI="#RomeoAndJuliet"/>
+        <NamedIndividual IRI="#Age12Plus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#RomeoAndJuliet"/>
+        <NamedIndividual IRI="#WilliamShakespeare"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#RomeoAndJuliet"/>
+        <NamedIndividual IRI="#Tragedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAgeGroup"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAgeGroup"/>
+        <Class IRI="#AgeGroup"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <Class IRI="#Author"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#Genre"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
